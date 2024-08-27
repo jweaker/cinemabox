@@ -1,0 +1,15 @@
+{
+  "name": "cinemabox",
+  "scripts": {
+    "start": "bun --hot ./server.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
